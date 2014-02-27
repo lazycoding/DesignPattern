@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1.职责链">
+      <UniqueIdentifier>{28a29b20-ee11-4015-993b-fd78abd8c1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.命令模式">
+      <UniqueIdentifier>{2f5e2eb2-5614-4abb-990e-97fc7c3efcbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.状态模式">
+      <UniqueIdentifier>{e9b36e70-b5ba-4dfd-bf2d-9167c4dbe950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.迭代器模式">
+      <UniqueIdentifier>{1618d1ca-ae13-41d6-b157-8d6eb654efff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5.解释器模式">
+      <UniqueIdentifier>{00c95358-655b-4864-a289-27b26757e856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6.中介者模式">
+      <UniqueIdentifier>{dce62a8e-3428-415d-8b8a-c180f16422b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.备忘录模式">
+      <UniqueIdentifier>{4011e260-a9ab-411b-ad28-57db0c55184c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="8.策略模式">
+      <UniqueIdentifier>{3e7f503f-b19f-47e2-bf26-96ce0e008881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9.模板方法">
+      <UniqueIdentifier>{ff236c69-6846-4158-ac6b-a50cec2b1421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="10.访问者模式">
+      <UniqueIdentifier>{8059574a-36a8-49d7-ac0a-8a8babc7647e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="11.观察者模式">
+      <UniqueIdentifier>{80244f5c-0426-4f36-b986-ecb520e05a1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteHandlerB.cpp">
+      <Filter>1.职责链</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteHandler.cpp">
+      <Filter>1.职责链</Filter>
+    </ClCompile>
+    <ClCompile Include="Request.cpp">
+      <Filter>1.职责链</Filter>
+    </ClCompile>
+    <ClCompile Include="ConceretCommandA.cpp">
+      <Filter>2.命令模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConceretCommandB.cpp">
+      <Filter>2.命令模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Invoker.cpp">
+      <Filter>2.命令模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cpp">
+      <Filter>3.状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="StateA.cpp">
+      <Filter>3.状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="StateB.cpp">
+      <Filter>3.状态模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Aggregate.cpp">
+      <Filter>4.迭代器模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteEnumerator.cpp">
+      <Filter>4.迭代器模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteColleague1.cpp">
+      <Filter>6.中介者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteColleague2.cpp">
+      <Filter>6.中介者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteMediator.cpp">
+      <Filter>6.中介者模式</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRole.cpp">
+      <Filter>7.备忘录模式</Filter>
+    </ClCompile>
+    <ClCompile Include="MementoManager.cpp">
+      <Filter>7.备忘录模式</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleStateMemento.cpp">
+      <Filter>7.备忘录模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcereteStrategy2.cpp">
+      <Filter>8.策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteStrategy1.cpp">
+      <Filter>8.策略模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteClass.cpp">
+      <Filter>9.模板方法</Filter>
+    </ClCompile>
+    <ClCompile Include="templatemethod_abstract.cpp">
+      <Filter>9.模板方法</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteVisitor.cpp">
+      <Filter>10.访问者模式</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConcreteHandler.h">
+      <Filter>1.职责链</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteHandlerB.h">
+      <Filter>1.职责链</Filter>
+    </ClInclude>
+    <ClInclude Include="Handler.h">
+      <Filter>1.职责链</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>1.职责链</Filter>
+    </ClInclude>
+    <ClInclude Include="Receiver.h">
+      <Filter>2.命令模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>2.命令模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConceretCommandB.h">
+      <Filter>2.命令模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConceretCommandA.h">
+      <Filter>2.命令模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>2.命令模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>3.状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>3.状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="StateA.h">
+      <Filter>3.状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="StateB.h">
+      <Filter>3.状态模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Aggregate.h">
+      <Filter>4.迭代器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteEnumerator.h">
+      <Filter>4.迭代器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IEnumerator.h">
+      <Filter>4.迭代器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="IEumnerable.h">
+      <Filter>4.迭代器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>4.迭代器模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Colleague.h">
+      <Filter>6.中介者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteColleague1.h">
+      <Filter>6.中介者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteColleague2.h">
+      <Filter>6.中介者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteMediator.h">
+      <Filter>6.中介者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Mediator.h">
+      <Filter>6.中介者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRole.h">
+      <Filter>7.备忘录模式</Filter>
+    </ClInclude>
+    <ClInclude Include="MementoManager.h">
+      <Filter>7.备忘录模式</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleStateMemento.h">
+      <Filter>7.备忘录模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcereteStrategy2.h">
+      <Filter>8.策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteStrategy1.h">
+      <Filter>8.策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy.h">
+      <Filter>8.策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Strategy_Context.h">
+      <Filter>8.策略模式</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateMethod_Abstract.h">
+      <Filter>9.模板方法</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteClass.h">
+      <Filter>9.模板方法</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteElementA.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="concreteelementb.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteVisitor.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="objectstructure.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Visitor.h">
+      <Filter>10.访问者模式</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="subject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

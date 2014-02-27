@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="1.适配器">
+      <UniqueIdentifier>{fe56b98d-e4dc-4d35-958f-771a6831556a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2.桥接">
+      <UniqueIdentifier>{cd9e88ec-533f-4ca5-bc0e-19a53b848e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3.组合模式">
+      <UniqueIdentifier>{3f79e71c-801f-423e-8e41-a06aed2a0c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4.装饰者">
+      <UniqueIdentifier>{56245662-5bd1-4b08-b49a-0d44fed8a87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="5.外观模式">
+      <UniqueIdentifier>{41fb5660-2ea8-4026-bf8a-e4c5ebc554d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="6.享元模式">
+      <UniqueIdentifier>{695cec1b-9efc-4131-b710-ea76e393c561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="7.代理模式">
+      <UniqueIdentifier>{62a01ec3-833d-4661-afe1-c6caef8be9d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>1.适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="Adaptee.h">
+      <Filter>1.适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>1.适配器</Filter>
+    </ClInclude>
+    <ClInclude Include="Abstraction.h">
+      <Filter>2.桥接</Filter>
+    </ClInclude>
+    <ClInclude Include="Implementor.h">
+      <Filter>2.桥接</Filter>
+    </ClInclude>
+    <ClInclude Include="Company.h">
+      <Filter>3.组合模式</Filter>
+    </ClInclude>
+    <ClInclude Include="CompanyA.h">
+      <Filter>3.组合模式</Filter>
+    </ClInclude>
+    <ClInclude Include="PartA.h">
+      <Filter>3.组合模式</Filter>
+    </ClInclude>
+    <ClInclude Include="PartB.h">
+      <Filter>3.组合模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>4.装饰者</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteComponent.h">
+      <Filter>4.装饰者</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteDecoratorA.h">
+      <Filter>4.装饰者</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteDecoratorB.h">
+      <Filter>4.装饰者</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>4.装饰者</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade.h">
+      <Filter>5.外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSystemA.h">
+      <Filter>5.外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="SubSystemB.h">
+      <Filter>5.外观模式</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyweightFactory.h">
+      <Filter>6.享元模式</Filter>
+    </ClInclude>
+    <ClInclude Include="Flyweight.h">
+      <Filter>6.享元模式</Filter>
+    </ClInclude>
+    <ClInclude Include="ConcreteFlyweight.h">
+      <Filter>6.享元模式</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstraction.cpp">
+      <Filter>2.桥接</Filter>
+    </ClCompile>
+    <ClCompile Include="Implementor.cpp">
+      <Filter>2.桥接</Filter>
+    </ClCompile>
+    <ClCompile Include="CompanyA.cpp">
+      <Filter>3.组合模式</Filter>
+    </ClCompile>
+    <ClCompile Include="PartA.cpp">
+      <Filter>3.组合模式</Filter>
+    </ClCompile>
+    <ClCompile Include="PartB.cpp">
+      <Filter>3.组合模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteComponent.cpp">
+      <Filter>4.装饰者</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteDecoratorA.cpp">
+      <Filter>4.装饰者</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteDecoratorB.cpp">
+      <Filter>4.装饰者</Filter>
+    </ClCompile>
+    <ClCompile Include="Facade.cpp">
+      <Filter>5.外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSystemA.cpp">
+      <Filter>5.外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="SubSystemB.cpp">
+      <Filter>5.外观模式</Filter>
+    </ClCompile>
+    <ClCompile Include="ConcreteFlyweight.cpp">
+      <Filter>6.享元模式</Filter>
+    </ClCompile>
+    <ClCompile Include="Flyweight.cpp">
+      <Filter>6.享元模式</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyweightFactory.cpp">
+      <Filter>6.享元模式</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

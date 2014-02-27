@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E5812278-157C-4D82-8CBF-8BBFB758D637}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>行为型模式</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Aggregate.cpp" />
+    <ClCompile Include="ConceretCommandA.cpp" />
+    <ClCompile Include="ConceretCommandB.cpp" />
+    <ClCompile Include="ConcereteStrategy2.cpp" />
+    <ClCompile Include="ConcreteClass.cpp" />
+    <ClCompile Include="ConcreteColleague1.cpp" />
+    <ClCompile Include="ConcreteColleague2.cpp" />
+    <ClCompile Include="ConcreteEnumerator.cpp" />
+    <ClCompile Include="ConcreteHandler.cpp" />
+    <ClCompile Include="ConcreteHandlerB.cpp" />
+    <ClCompile Include="ConcreteMediator.cpp" />
+    <ClCompile Include="ConcreteStrategy1.cpp" />
+    <ClCompile Include="ConcreteVisitor.cpp" />
+    <ClCompile Include="Context.cpp" />
+    <ClCompile Include="GameRole.cpp" />
+    <ClCompile Include="Invoker.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MementoManager.cpp" />
+    <ClCompile Include="Request.cpp" />
+    <ClCompile Include="RoleStateMemento.cpp" />
+    <ClCompile Include="StateA.cpp" />
+    <ClCompile Include="StateB.cpp" />
+    <ClCompile Include="templatemethod_abstract.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aggregate.h" />
+    <ClInclude Include="Colleague.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="ConceretCommandA.h" />
+    <ClInclude Include="ConceretCommandB.h" />
+    <ClInclude Include="ConcereteStrategy2.h" />
+    <ClInclude Include="ConcreteClass.h" />
+    <ClInclude Include="ConcreteColleague1.h" />
+    <ClInclude Include="ConcreteColleague2.h" />
+    <ClInclude Include="ConcreteElementA.h" />
+    <ClInclude Include="concreteelementb.h" />
+    <ClInclude Include="ConcreteEnumerator.h" />
+    <ClInclude Include="ConcreteHandler.h" />
+    <ClInclude Include="ConcreteHandlerB.h" />
+    <ClInclude Include="ConcreteMediator.h" />
+    <ClInclude Include="ConcreteStrategy1.h" />
+    <ClInclude Include="ConcreteVisitor.h" />
+    <ClInclude Include="Context.h" />
+    <ClInclude Include="GameRole.h" />
+    <ClInclude Include="Handler.h" />
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="IEnumerator.h" />
+    <ClInclude Include="IEumnerable.h" />
+    <ClInclude Include="Invoker.h" />
+    <ClInclude Include="Mediator.h" />
+    <ClInclude Include="MementoManager.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="objectstructure.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="Receiver.h" />
+    <ClInclude Include="Request.h" />
+    <ClInclude Include="RoleStateMemento.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateA.h" />
+    <ClInclude Include="StateB.h" />
+    <ClInclude Include="Strategy.h" />
+    <ClInclude Include="Strategy_Context.h" />
+    <ClInclude Include="subject.h" />
+    <ClInclude Include="TemplateMethod_Abstract.h" />
+    <ClInclude Include="Visitor.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
